@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+	<appSettings>
+		    <add key="SendGrid.DefaultFrom" value="no-reply@somewhere.com" xdt:Transform="InsertIfMissing" />
+			<add key="SendGrid.Username" value="$sendgridusername$" xdt:Transform="InsertIfMissing" />
+			<add key="SendGrid.Password" value="$sendgridpassword$" xdt:Transform="InsertIfMissing" />
+	</appSettings>
+</configuration>
